@@ -246,6 +246,30 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\Goods\1.jpg" />
+    <Content Include="images\Goods\10.jpg" />
+    <Content Include="images\Goods\11.jpg" />
+    <Content Include="images\Goods\12.jpg" />
+    <Content Include="images\Goods\13.jpg" />
+    <Content Include="images\Goods\14.jpg" />
+    <Content Include="images\Goods\15.jpg" />
+    <Content Include="images\Goods\16.jpg" />
+    <Content Include="images\Goods\17.jpg" />
+    <Content Include="images\Goods\18.jpg" />
+    <Content Include="images\Goods\19.jpg" />
+    <Content Include="images\Goods\2.jpg" />
+    <Content Include="images\Goods\20.jpg" />
+    <Content Include="images\Goods\21.jpg" />
+    <Content Include="images\Goods\22.jpg" />
+    <Content Include="images\Goods\23.jpg" />
+    <Content Include="images\Goods\24.jpg" />
+    <Content Include="images\Goods\3.jpg" />
+    <Content Include="images\Goods\4.jpg" />
+    <Content Include="images\Goods\5.jpg" />
+    <Content Include="images\Goods\6.jpg" />
+    <Content Include="images\Goods\7.jpg" />
+    <Content Include="images\Goods\8.jpg" />
+    <Content Include="images\Goods\9.jpg" />
     <Content Include="Models\LYYSnacks_WebModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>LYYSnacks_WebModel.edmx</DependentUpon>
@@ -322,7 +346,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
