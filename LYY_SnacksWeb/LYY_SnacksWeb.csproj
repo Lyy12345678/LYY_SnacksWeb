@@ -270,6 +270,17 @@
     <Content Include="images\Goods\7.jpg" />
     <Content Include="images\Goods\8.jpg" />
     <Content Include="images\Goods\9.jpg" />
+    <Content Include="images\Users\1.jpg" />
+    <Content Include="images\Users\10.jpg" />
+    <Content Include="images\Users\11.jpg" />
+    <Content Include="images\Users\2.jpg" />
+    <Content Include="images\Users\3.jpg" />
+    <Content Include="images\Users\4.jpg" />
+    <Content Include="images\Users\5.jpg" />
+    <Content Include="images\Users\6.jpg" />
+    <Content Include="images\Users\7.jpg" />
+    <Content Include="images\Users\8.jpg" />
+    <Content Include="images\Users\9.jpg" />
     <Content Include="Models\LYYSnacks_WebModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>LYYSnacks_WebModel.edmx</DependentUpon>
