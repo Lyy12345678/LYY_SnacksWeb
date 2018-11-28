@@ -205,33 +205,99 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Areals.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Arguement.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Brows.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Cart.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Comments.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ComReply.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FavoriteGoods.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FavoriteShop.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Goods.cs">
-      <DependentUpon>LYYSnacks_WebModel.tt</DependentUpon>
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GoodsType.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\IRepository\IUsers.cs" />
-    <Compile Include="Models\LYYSnacks_WebModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LYYSnacks_WebModel.Context.tt</DependentUpon>
+    <Compile Include="Models\LeaveWords.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\LYYSnacks_WebModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LYYSnacks_WebModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\LYYSnacks_WebModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LYYSnacks_WebModel.edmx</DependentUpon>
+    <Compile Include="Models\Manager.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Notice.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OrderDetails.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Orders.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PostReply.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Posts.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Receipt_address.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Repository\RUsers.cs" />
-    <Compile Include="Models\Saler.cs">
-      <DependentUpon>LYYSnacks_WebModel.tt</DependentUpon>
+    <Compile Include="Models\Shops.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SnacksModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SnacksModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SnacksModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SnacksModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SnacksModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagrams.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserInfo.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Users.cs">
-      <DependentUpon>LYYSnacks_WebModel.tt</DependentUpon>
+      <DependentUpon>SnacksModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WordReply.cs">
+      <DependentUpon>SnacksModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -245,15 +311,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\LYYSnacks_WebModel.Context.tt">
+    <Content Include="Models\SnacksModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>LYYSnacks_WebModel.edmx</DependentUpon>
-      <LastGenOutput>LYYSnacks_WebModel.Context.cs</LastGenOutput>
+      <DependentUpon>SnacksModel.edmx</DependentUpon>
+      <LastGenOutput>SnacksModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\LYYSnacks_WebModel.tt">
+    <Content Include="Models\SnacksModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>LYYSnacks_WebModel.edmx</DependentUpon>
-      <LastGenOutput>LYYSnacks_WebModel.cs</LastGenOutput>
+      <DependentUpon>SnacksModel.edmx</DependentUpon>
+      <LastGenOutput>SnacksModel.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
@@ -262,12 +328,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <EntityDeploy Include="Models\LYYSnacks_WebModel.edmx">
+    <EntityDeploy Include="Models\SnacksModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>LYYSnacks_WebModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>SnacksModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\LYYSnacks_WebModel.edmx.diagram">
-      <DependentUpon>LYYSnacks_WebModel.edmx</DependentUpon>
+    <Content Include="Models\SnacksModel.edmx.diagram">
+      <DependentUpon>SnacksModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
