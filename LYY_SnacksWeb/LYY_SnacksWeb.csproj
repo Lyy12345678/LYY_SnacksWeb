@@ -205,99 +205,33 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Areals.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Arguement.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Brows.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Cart.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Comments.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ComReply.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\FavoriteGoods.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\FavoriteShop.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\Goods.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\GoodsType.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
+      <DependentUpon>LYYSnacks_WebModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\IRepository\IUsers.cs" />
-    <Compile Include="Models\LeaveWords.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
+    <Compile Include="Models\LYYSnacks_WebModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LYYSnacks_WebModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Manager.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
+    <Compile Include="Models\LYYSnacks_WebModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LYYSnacks_WebModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LYYSnacks_WebModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LYYSnacks_WebModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\Notice.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\OrderDetails.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Orders.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\PostReply.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Posts.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Receipt_address.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\Repository\RUsers.cs" />
-    <Compile Include="Models\Shops.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SnacksModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SnacksModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SnacksModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SnacksModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SnacksModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\sp_helpdiagrams_Result.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\sysdiagrams.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\UserInfo.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
+    <Compile Include="Models\Saler.cs">
+      <DependentUpon>LYYSnacks_WebModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Users.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\WordReply.cs">
-      <DependentUpon>SnacksModel.tt</DependentUpon>
+      <DependentUpon>LYYSnacks_WebModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -311,15 +245,116 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\SnacksModel.Context.tt">
+    <Content Include="images\Goods\1.jpg" />
+    <Content Include="images\Goods\10.jpg" />
+    <Content Include="images\Goods\11.jpg" />
+    <Content Include="images\Goods\12.jpg" />
+    <Content Include="images\Goods\13.jpg" />
+    <Content Include="images\Goods\14.jpg" />
+    <Content Include="images\Goods\15.jpg" />
+    <Content Include="images\Goods\16.jpg" />
+    <Content Include="images\Goods\17.jpg" />
+    <Content Include="images\Goods\18.jpg" />
+    <Content Include="images\Goods\19.jpg" />
+    <Content Include="images\Goods\2.jpg" />
+    <Content Include="images\Goods\20.jpg" />
+    <Content Include="images\Goods\21.jpg" />
+    <Content Include="images\Goods\22.jpg" />
+    <Content Include="images\Goods\23.jpg" />
+    <Content Include="images\Goods\24.jpg" />
+    <Content Include="images\Goods\25.jpg" />
+    <Content Include="images\Goods\26.jpg" />
+    <Content Include="images\Goods\27.jpg" />
+    <Content Include="images\Goods\28.jpg" />
+    <Content Include="images\Goods\29.jpg" />
+    <Content Include="images\Goods\3.jpg" />
+    <Content Include="images\Goods\30.jpg" />
+    <Content Include="images\Goods\31.jpg" />
+    <Content Include="images\Goods\32.jpg" />
+    <Content Include="images\Goods\33.jpg" />
+    <Content Include="images\Goods\34.jpg" />
+    <Content Include="images\Goods\35.jpg" />
+    <Content Include="images\Goods\36.jpg" />
+    <Content Include="images\Goods\37.jpg" />
+    <Content Include="images\Goods\38.jpg" />
+    <Content Include="images\Goods\39.jpg" />
+    <Content Include="images\Goods\4.jpg" />
+    <Content Include="images\Goods\40.jpg" />
+    <Content Include="images\Goods\41.jpg" />
+    <Content Include="images\Goods\42.jpg" />
+    <Content Include="images\Goods\43.jpg" />
+    <Content Include="images\Goods\44.jpg" />
+    <Content Include="images\Goods\45.jpg" />
+    <Content Include="images\Goods\46.jpg" />
+    <Content Include="images\Goods\47.jpg" />
+    <Content Include="images\Goods\48.jpg" />
+    <Content Include="images\Goods\49.jpg" />
+    <Content Include="images\Goods\5.jpg" />
+    <Content Include="images\Goods\50.jpg" />
+    <Content Include="images\Goods\51.jpg" />
+    <Content Include="images\Goods\52.jpg" />
+    <Content Include="images\Goods\53.jpg" />
+    <Content Include="images\Goods\54.jpg" />
+    <Content Include="images\Goods\55.jpg" />
+    <Content Include="images\Goods\56.jpg" />
+    <Content Include="images\Goods\57.jpg" />
+    <Content Include="images\Goods\58.jpg" />
+    <Content Include="images\Goods\59.jpg" />
+    <Content Include="images\Goods\60.jpg" />
+    <Content Include="images\Goods\61.jpg" />
+    <Content Include="images\Goods\62.jpg" />
+    <Content Include="images\Goods\63.jpg" />
+    <Content Include="images\Goods\64.jpg" />
+    <Content Include="images\Goods\65.jpg" />
+    <Content Include="images\Goods\66.jpg" />
+    <Content Include="images\Goods\67.jpg" />
+    <Content Include="images\Goods\68.jpg" />
+    <Content Include="images\Goods\69.jpg" />
+    <Content Include="images\Goods\70.jpg" />
+    <Content Include="images\Goods\71.jpg" />
+    <Content Include="images\Goods\72.jpg" />
+    <Content Include="images\Goods\73.jpg" />
+    <Content Include="images\Goods\74.jpg" />
+    <Content Include="images\Goods\75.jpg" />
+    <Content Include="images\Goods\76.jpg" />
+    <Content Include="images\Goods\77.jpg" />
+    <Content Include="images\Goods\78.jpg" />
+    <Content Include="images\Goods\79.jpg" />
+    <Content Include="images\Goods\8.jpg" />
+    <Content Include="images\Goods\80.jpg" />
+    <Content Include="images\Goods\81.jpg" />
+    <Content Include="images\Goods\82.jpg" />
+    <Content Include="images\Goods\83.jpg" />
+    <Content Include="images\Goods\84.jpg" />
+    <Content Include="images\Goods\85.jpg" />
+    <Content Include="images\Goods\86.jpg" />
+    <Content Include="images\Goods\87.jpg" />
+    <Content Include="images\Goods\88.jpg" />
+    <Content Include="images\Goods\89.jpg" />
+    <Content Include="images\Goods\9.jpg" />
+    <Content Include="images\Goods\90.jpg" />
+    <Content Include="images\Goods\91.jpg" />
+    <Content Include="images\Goods\92.jpg" />
+    <Content Include="images\Users\1.jpg" />
+    <Content Include="images\Users\10.jpg" />
+    <Content Include="images\Users\11.jpg" />
+    <Content Include="images\Users\2.jpg" />
+    <Content Include="images\Users\3.jpg" />
+    <Content Include="images\Users\4.jpg" />
+    <Content Include="images\Users\5.jpg" />
+    <Content Include="images\Users\6.jpg" />
+    <Content Include="images\Users\7.jpg" />
+    <Content Include="images\Users\8.jpg" />
+    <Content Include="images\Users\9.jpg" />
+    <Content Include="Models\LYYSnacks_WebModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SnacksModel.edmx</DependentUpon>
-      <LastGenOutput>SnacksModel.Context.cs</LastGenOutput>
+      <DependentUpon>LYYSnacks_WebModel.edmx</DependentUpon>
+      <LastGenOutput>LYYSnacks_WebModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\SnacksModel.tt">
+    <Content Include="Models\LYYSnacks_WebModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SnacksModel.edmx</DependentUpon>
-      <LastGenOutput>SnacksModel.cs</LastGenOutput>
+      <DependentUpon>LYYSnacks_WebModel.edmx</DependentUpon>
+      <LastGenOutput>LYYSnacks_WebModel.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
@@ -328,12 +363,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <EntityDeploy Include="Models\SnacksModel.edmx">
+    <EntityDeploy Include="Models\LYYSnacks_WebModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>SnacksModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>LYYSnacks_WebModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\SnacksModel.edmx.diagram">
-      <DependentUpon>SnacksModel.edmx</DependentUpon>
+    <Content Include="Models\LYYSnacks_WebModel.edmx.diagram">
+      <DependentUpon>LYYSnacks_WebModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -387,7 +422,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
