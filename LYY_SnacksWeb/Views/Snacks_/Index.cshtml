@@ -3,7 +3,12 @@
 @{
     ViewBag.Title = "Index";
 }
-
+<style type="text/css">
+  
+    a:hover{
+        text-decoration:none;
+    }
+</style>
 
 <link href="~/yangshi/bootstrap.min.css" rel="stylesheet" />
 <script src="~/yangshi/bootstrap.min.js"></script>
@@ -18,90 +23,104 @@
         body{
             background:#eee;
         }
+        .logo{
+            float:left;
+            height:120px;
+            width:140px;
+        }
         .logo img {
-            float: left;
+            width:100%;
+            height:100%;
             margin-top: 20px;
             margin-right: 100px;
             margin-bottom: 20px;
         }
-
+        .u-g-search{
+            float:left;
+            width:700px;
+            height:140px;
+            position:relative;
+        }
         .u-g-search input {
-            line-height:2.5;       
+            position:absolute;
+            line-height:2.5;  
+            top:50px;
+            left:250px;
             color: cornflowerblue;
-            font-size: medium;
-            float: left;
-            margin-top: 40px;
-           margin-left:70px;
+            font-size:medium;
         }
 
         .u-g-search button {
             font-size: medium;
             color: cornflowerblue;
-            float: left;
-            margin-top: 45px;
-            margin-left: 30px;
+            position:absolute;
+            top:50px;
+            right:80px;
+            padding:10px 14px;
         }
-        .rmss ul{
-            margin-left:60px;
-        }
-        .rmss a{
-            list-style:none;
-            float:left;   
-            margin-top:60px;
-            margin-left:15px;
-            text-decoration-color:red;
-            text-align:center;
-        }
-      
+       .rmss{
+           position:absolute;
+           list-style:none;
+           left:255px;
+           top:100px;
+           width:170px;
+       }
+       
     </style>
 
     @*logo,搜索框,热搜*@
 
     <div class="logo">
         <img src="~/images/4.jpg" LYY SnacksWeb width="150" height="100" />
-
-        <div class="u-g-search">
-            <input name="q" type="text" size="400"  placeholder="请输入关键字">
-            <button class="s-btn fl J_btn_search" style="text-align:center" type="submit">找零食</button>
-            <br />
-
-            <ul class="rmss">
-                <a href="">水果</a>
-
-                <a href="">海苔</a>
-
-                <a href="">果冻</a>
-
-                <a href="">辣条</a>
-
-               <a href="">薯片</a>
-
-                <a href="">糖果</a>
-
-                <a href="">牛奶</a>
-
-            </ul>
-        </div>
-
     </div>
+    <div class="u-g-search">
+        <input name="q" type="text" size="400" placeholder="请输入关键字">
+       
+        <button class="s-btn fl J_btn_search" style="text-align:center" type="submit">找零食</button> 
+        
+        <div id="RS" class="rmss">
+
+            <a href="">辣条</a>
+
+            <a href="">薯片</a>
+
+            <a href="">糖果</a>
+
+            <a href="">牛奶</a>
+
+        </div>     
+    </div>
+    @*<div class="rmss">
+       
+            <a href="">辣条</a>
+
+            <a href="">薯片</a>
+
+            <a href="">糖果</a>
+
+           <a href="">牛奶</a>
+       
+    </div>*@
+
+   
 
     @*地址定位样式*@
 
     <style>
-        .DZ a {
-            float:left;
-            margin-right:50px;
-            margin-top:50px;
-            font-size: medium;
-            font-style: oblique;
+        .DZ{
+            float:right;
+            position:relative;
+            height:140px;
+            width:300px;
         }
-
-        .DZ select {
-            float: left;
-            /*margin-right: 250px;*/
-             margin-top:50px;
-            font-size: medium;
-            font-style: normal;
+        .DZ a,.DZ select{
+            position:absolute;
+        }
+        .DZ a{
+            right:140px;
+        }
+        .DZ select{
+            right:50px;
         }
     </style>
 
@@ -121,6 +140,7 @@
                 <option value="佛山市">佛山市</option>
             </optgroup>
         </select>
+
     </div>
 
    
@@ -397,6 +417,7 @@
            ul.r_b span{
                text-align:left;
            }
+          
        </style>
 
        @*网站公告*@
@@ -426,7 +447,7 @@
         });
     });
                </script>
-               <h4><span class="r" data-id="1" >公告 </span><span class="r" data-id="2">关注</span></h4>
+               <h4 class="text-center"><span class="r" data-id="1" style="margin-right:10px" >公告 </span><span class="r" data-id="2">关注</span></h4>
                <ul class="r_b" id="r1">
                    <li><span>[关注]</span><a href="">纵享丝滑德芙巧克力</a></li>
                    <li><span>[上新]</span><a href="">万圣节创意手工糖果水果切片糖棒棒喜糖</a></li>
@@ -502,7 +523,7 @@
                         $('.bg').removeClass('on');
                         $(this).addClass('on');
                         $(".ct3_b").hide();
-                        $('#on' + $(this).attr('data-id')).show()
+                        $("#on2").show();
                     });
                 });
             </script>
