@@ -1412,7 +1412,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="SnackEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="SnackEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Areals" EntityType="Self.Areals" />
           <EntitySet Name="Arguement" EntityType="Self.Arguement" />
           <EntitySet Name="Brows" EntityType="Self.Brows" />
@@ -1599,7 +1599,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="SnackModelStoreContainer" CdmEntityContainer="SnackEntities">
+        <EntityContainerMapping StorageEntityContainer="SnackModelStoreContainer" CdmEntityContainer="SnackEntities1">
           <EntitySetMapping Name="Areals">
             <EntityTypeMapping TypeName="SnackModel.Areals">
               <MappingFragment StoreEntitySet="Areals">

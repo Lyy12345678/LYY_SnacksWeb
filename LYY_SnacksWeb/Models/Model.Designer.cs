@@ -1,4 +1,4 @@
-﻿// 为模型“D:\Backup\桌面\懒洋洋零食网\LYY_SnacksWeb\LYY_SnacksWeb\Models\SnacksModel.edmx”启用了 T4 代码生成。
+﻿// 为模型“C:\Users\MyPC.000\Source\Repos\LYY_SnacksWeb2\LYY_SnacksWeb\Models\Model.edmx”启用了 T4 代码生成。
 // 要启用旧代码生成功能，请将“代码生成策略”设计器属性的值
 // 更改为“旧的 ObjectContext”。当在设计器中打开该模型时，此属性会出现在
 // “属性”窗口中。

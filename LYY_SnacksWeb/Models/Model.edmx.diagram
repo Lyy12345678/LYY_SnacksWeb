@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="fcc291ea99844facbff43b33a9f1210f" Name="Diagram1">
+      <Diagram DiagramId="23ecf88a0f474f9ab6ce89e95598bbc4" Name="Diagram1">
         <EntityTypeShape EntityType="SnackModel.Areals" Width="1.5" PointX="6.75" PointY="28.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SnackModel.Arguement" Width="1.5" PointX="6.75" PointY="10.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SnackModel.Brows" Width="1.5" PointX="3" PointY="21" IsExpanded="true" />

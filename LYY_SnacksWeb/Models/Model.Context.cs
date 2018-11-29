@@ -15,10 +15,10 @@ namespace LYY_SnacksWeb.Models
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class SnackEntities : DbContext
+    public partial class SnackEntities1 : DbContext
     {
-        public SnackEntities()
-            : base("name=SnackEntities")
+        public SnackEntities1()
+            : base("name=SnackEntities1")
         {
         }
     
